@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+nav i {
+    font-size: 3em;
+}
+body {
+    background-color:whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+#container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    box-shadow: 0px 0px 25px 0px #444343;
+    width: 70%;
+    background-color: white;
+    margin-bottom: 35px;
+    
+    border-radius: 2%;
+}
+.owner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.owner span {
+    align-self: center;
+    margin: 10px
+}
+.owner img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 20px;
+}
+.newPost img {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.newPost h2, p {
+    margin: 15px;
+}
+.newPost p {
+    color: rgb(86, 86, 86);
+}
